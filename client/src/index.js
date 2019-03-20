@@ -20,8 +20,8 @@ import KidPage from './components/Kid/KidPage';
 import Profile from './components/Profile/Profile';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:4000/graphql',
-  //uri: 'https://<<name_app>>.herokuapp.com/graphql',
+  //uri: 'http://localhost:4000/graphql',
+  uri: 'https://challenge-carelulu.herokuapp.com/graphql',
   fetchOptions: {
     credentials: 'include'
   },
